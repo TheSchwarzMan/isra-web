@@ -1,0 +1,39 @@
+Producto 1
+Monitor Samsung S24F350FHL - 24" -
+$3,349.00  $2,759.00
+
+Producto 2
+Computadora Dell Vostro 3471 SFF - Intel Core i7-9700
+$19,799.00  $17,329.00
+
+Producto 3
+Computadora HP 280 G4 SFF - Intel Core i3-9100 - 8GB -
+$15,239.00  $12,279.00
+
+Producto 4
+Laptop Acer Aspire 3 A315-54K-51UZ - 15.6" - Intel Core
+$19,849.00  $17,759.00
+
+Producto 5
+Laptop Lenovo MIIX 520 - 12.2" - Intel Core i5-8250U -
+$20,409.00  $17,019.00
+
+Producto 6
+Mini PC Gigabyte Barebone GB-BRI3H-8130 - Intel Core
+$8,249.00  $6,689.00
+
+Producto 7
+Mini PC Intel NUC NUC8i5BEH - Intel Core i5-
+$11,179.00  $9,309.00
+
+Producto 8
+Unidad de Estado Sólido ADATA SU800 - M.2 2280 -
+$3,629.00  $3,239.00
+
+Producto 9
+Procesador Intel Core i7-10700K - 3,8 GHz - Socket 1200 - 8 Núcleos
+$11,489.00  $9,359.00
+
+Producto 10
+Cámara Provision-ISR PTZ IP H.264 - Exterior, 2048 X 1536
+$24,749.00  $20,449.00
