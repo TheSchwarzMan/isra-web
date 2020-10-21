@@ -1,0 +1,45 @@
+    head
+    {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    header
+    {
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/header.jpg);
+        height: 900px;
+        color: white;
+    }
+
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    nav
+    {
+        margin: 0px;
+        padding: 0px;
+
+        padding-top: 10px;
+        padding-right: 100px;
+    }
+    .enlaces a
+    {
+        padding-right: 15px;
+        text-decoration: none;
+        color: white;
+    }
+
+    h1
+    {
+        margin: 0px;
+        padding: 0px;
+
+        padding-top: 790px;
+
+        font-size: 20px;
+    }
