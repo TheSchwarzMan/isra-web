@@ -1,0 +1,59 @@
+    head
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    header
+    {
+        padding: 0px;
+        background-image: url(../img/header.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 900px;
+        color: white;
+    }
+
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    nav
+    {
+        padding-top: 30px;
+        padding-right: 100px;
+    }
+    .enlaces a
+    {
+        padding-right: 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+
+    .logo
+    {
+        padding-top: 15px;
+        padding-left: 150px;
+    }
+
+    .h1p
+    {
+        margin: 0px;
+        padding: 0px;
+
+        padding-top: 650px;
+        padding-left: 150px;
+
+        font-size: 15px;
+    }
+    
+    .h1s
+    {
+        margin: 0px;
+        padding: 0px;
+
+        padding-left: 150px;
+
+        font-size: 20px;
+    }
