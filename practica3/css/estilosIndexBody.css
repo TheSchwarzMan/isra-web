@@ -1,0 +1,112 @@
+    .mas h2
+    {
+        font-weight: lighter;
+        font-size: 30px;
+    }
+
+    .tarjetas
+    {
+        display: flex;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .tarjetas div
+    {
+        margin-top: 20px;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .tarjetas h3 {font-size: 25px;}
+
+    .tarjetas p 
+    {
+        line-height: 25px;
+        
+    }
+
+    main h2 
+    {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    }
+
+    .tarjetas2
+    {
+        display: flex;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+    }
+
+    .tarjetas2 div
+    {
+        margin: 10px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 25px;
+        background-color: lightgray;
+        border-color: gray;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .tarjetas2 h3
+    {
+        text-align: left;
+        font-size: 28px;
+        padding-top: 15px;
+        padding-left: 18px;
+        font-weight: lighter;
+        line-height: 0px;
+    }
+    .tarjetas2 p
+    {
+        text-align: left;
+        line-height: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .tarjetas2 div a
+    {
+        text-decoration: none;
+        background-color: rgb(235, 153, 2);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 90px;
+        padding-right: 90px;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        
+    }
+
+    .precio 
+    {
+    margin-bottom: 100px;
+    color: rgb(18, 212, 18);
+    font-weight: bold;
+    line-height: 0px;
+    }
+    .vertodas
+    {
+        background-color: rgb(18, 212, 18);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 610px;
+        margin-right: 210px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+    }
