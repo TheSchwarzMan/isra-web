@@ -1,0 +1,185 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Utilidades */
+.fw-300{
+    font-weight: 300;
+}
+.centrar-texto{
+    text-align: center;
+}
+.d-block{
+    display: block!important;
+}
+
+/* Globales */
+img{
+    max-width: 100%;
+}
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor{
+    max-width: 120rem; /* 1200px */
+    margin: 0 auto ;
+}
+
+.header
+{
+    background-color: #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contheader
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.contheader img
+{
+    width: 70%;
+}
+
+.linksheader a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 1.5rem;
+}
+
+.linksheader a:last-child
+{
+    margin-right: 0px;
+}
+
+.linksheader a:hover
+{
+    color: #26E026;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;;
+}
+
+main h1
+{
+    font-size: 3.2rem;
+}
+
+.contenido-nosotros{
+    display: grid; /* CSS GRID*/
+    grid-template-columns: 50% 50%;/* 50% 50%------1fr 1fr------200px 60%----repeat(2,1fr)*/
+    grid-column-gap: 2rem;
+    align-items: center;
+}
+
+.contenido-nosotros blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: -5rem 0 0 0;
+    padding: 0 0 5rem 0;
+}
+
+.contenido-nosotros p{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    line-height: 2.5rem;
+}
+
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.icono{
+    flex-basis: calc(33.3% - 1rem);
+}
+
+.icono img
+{
+    height: 15vh;
+}
+.icono h3{
+    text-transform: uppercase;
+}
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.seccion h2
+{
+    margin: 5rem;
+    font-size: 3rem;
+}
+
+.seccion h3
+{
+    font-size: 2rem;
+}
+
+.seccion p
+{
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.footer
+{
+    width: 100%;
+    margin-top: 2%;
+    background-color: #323232;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linksfooter a
+{
+    color: #ffffff;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.linksfooter a:last-child
+{
+    margin-right: 0;
+}
+
+.linksfooter a:hover
+{
+    color: #26E026;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer p
+{
+    color: #ffffff;
+}
