@@ -186,15 +186,21 @@ h4{
     border: 0px;
 }
 
-.boton:hover
+.boton-verde:hover
 {
     background-color: #578a00;
 }
 
-.boton-amarillo{
+.boton-amarillo
+{
     background-color: #E08709;
-
 }
+
+.boton-amarillo:hover
+{
+    background-color: #be6f00;
+}
+
 .boton-verde{
     background-color: #71b100;
 }
