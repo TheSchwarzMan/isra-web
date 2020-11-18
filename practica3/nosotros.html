@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,25 +5,30 @@
         <meta name="viewport" content="width=device-width, user-scalable=no,
          Initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="icon" type="image/png" href="img/favicon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/favicon.png">
     <title>Nosotros</title>
-    <link rel="stylesheet" href="css/estilosNosotros.css" >
+    <link rel="stylesheet" href="css/misestilos.css" >
     <link rel="stylesheet" href="css/normalize.css">
 
 </head>
 
 <body>
-    <header class="header">
-        <div class="contheader">
-            <a href="index.html"><img src="img/logo.svg" alt="Logo de bienes raices"></a>
-            <div class="linksheader">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
+    <header class="site-header"> <!-- etiqueta Header que me sirve para agrupar el encabezado -->
+        <div class="contenedor contenido-header" >
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Logo de vienes raices">
+                    </a>
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncios.html">Anuncios</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
             </div>
         </div>
-    </header>
+    </header> <!-- Cierre de header -->
 
     <main class="contenedor">
         <h1 class="fw-300 centrar-texto">Conoce sobre nosotros</h1> 
@@ -33,6 +37,7 @@
                 <img src="img/nosotros.jpg" alt="Sobre Nosotros">
             </div>
             <div class="texto-nosotros">
+                
                 <blockquote>25 años de Experiencia</blockquote>
                 <p>Vivamus condimentum quam nunc, ac efficitur ipsum posuere sollicitudin. Donec in tempus velit. Morbi ullamcorper neque sed dolor faucibus luctus. In elit ligula, ultricies in libero non, dignissim dictum ante. Duis non augue pulvinar, dapibus sem eget, porta sapien. Pellentesque vitae odio aliquam, dictum nisl in, aliquet turpis. Fusce nec dignissim lacus, in dapibus augue. Morbi vehicula arcu condimentum, suscipit massa quis, vestibulum ante. Suspendisse convallis nulla eget pulvinar interdum.</p>
                 <p>Morbi sollicitudin, tortor quis eleifend sollicitudin, velit odio tristique turpis, vel posuere diam diam sit amet dolor. Donec vitae tellus semper, sodales purus non, imperdiet turpis. Aliquam bibendum, elit sed feugiat sagittis, ligula augue suscipit augue, quis ornare libero lacus nec erat. Fusce a felis fringilla, ultrices eros et, pulvinar quam. Nunc vestibulum felis eu leo venenatis tincidunt. Sed eros lorem, vehicula vitae mattis vitae, egestas non erat. Quisque gravida felis in tincidunt congue. Nunc ut aliquam tortor. Nulla ultricies semper consequat. Sed ut urna orci.</p>
@@ -40,35 +45,37 @@
         </div>
     </main>
 
-    <section class="contenedor seccion">
+    <section class="contenedor seccion"> <!-- La etiqueta <section> sirve para dividir el documento html -->
         <h2 class="fw-300 centrar-texto ">Más Sobre Nosotros</h2>
         <div class="iconos-nosotros">
             <div class="icono">
                 <img src="img/icono1.svg" alt="Icono de seguridad" >
                 <h3>SEGURIDAD</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed commodi porro tenetur earum nobis laudantium modi mollitia temporibus perferendis nulla. Ab!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut obcaecati ea soluta nam tempora nisi.</p>
             </div>
             <div class="icono">
                 <img src="img/icono2.svg" alt="Icono de mejor precio">
                 <h3>EL MEJOR PRECIO</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, fugiat incidunt quaerat suscipit ad alias, excepturi ipsam dolorem minus molestias sit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut obcaecati ea soluta nam tempora nisi.</p>
             </div>
             <div class="icono">
                 <img src="img/icono3.svg" alt="Icono de tiempo">
                 <h3>A TIEMPO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta id suscipit consectetur a ab voluptatum excepturi, libero ullam, similique porro?.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut obcaecati ea soluta nam tempora nisi.</p>
             </div>
         </div>
-    </section>
+    </section> <!-- cierre de la etiqueta <section> -->
 
-    <footer class="footer">
-        <div class="linksfooter">
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
+    <footer class="site-footer section">
+        <div class="contenedor contenedor-footer">
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+                <p class="copyright">Todos los derechos reservados &copy;</p>
         </div>
-        <p>Todos los derechos reservados &copy;</p>
     </footer>
 </body>
 </html>
