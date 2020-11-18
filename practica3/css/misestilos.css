@@ -182,13 +182,25 @@ h4{
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
+    cursor: pointer;
+    border: 0px;
 }
+
+.boton:hover
+{
+    background-color: #578a00;
+}
+
 .boton-amarillo{
     background-color: #E08709;
 
 }
 .boton-verde{
     background-color: #71b100;
+}
+.boton-verde
+{
+    cursor: pointer;
 }
 
 .ver-todas{
@@ -368,12 +380,18 @@ input[type="radio"]
 {
     width: 2%;
     margin-bottom: 1.5rem;
+    cursor: pointer;
 }
 
 textarea
 {
     height: 20rem;
     resize: none;
+}
+
+select
+{
+    cursor: pointer;
 }
 
 legend
