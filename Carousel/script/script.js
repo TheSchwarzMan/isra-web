@@ -2,9 +2,9 @@ window.onload = function()
 {
     const IMG = 
           [
-              '../img/1.jpg',
-              '../img/2.jpg',
-              '../img/3.jpg'
+              'img/uno.jpg',
+              'img/dos.jpg',
+              'img/tres.jpg'
           ];
     
     let currentPosition = 0;
