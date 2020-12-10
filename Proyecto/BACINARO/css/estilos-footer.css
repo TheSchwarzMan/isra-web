@@ -1,0 +1,14 @@
+.pie-pagia{
+    background: linear-gradient(to right, rgba(235,82,11,1) 0%, rgba(243,164,34,1) 90%);
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    height: 3rem;
+}
+
+

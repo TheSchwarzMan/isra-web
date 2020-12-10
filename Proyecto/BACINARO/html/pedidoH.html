@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/estilospedidoPH.css">
+        <link rel="stylesheet" href="../css/estilos-footer-header.css">
+        <link rel="stylesheet" href="../css/EstilosIN.css">
+	    <title>BACINARO EATS</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="contenedor-header">
+                <h2 class="logotipo"><a href="pedidoH.html"><img src="../img/logo.svg" alt="logo_bacinaro"></a></h2>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Hamburguesas y papas</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="inicio_sesion.html">Iniciar Sesión</a>
+                </nav>
+            </div>
+        </header>
+
+        <main> 
+            <h2>HAMBURGUESAS</h2>
+            <div class="contenedorP-flex">
+                <div class="p1">
+                    <h3>CLÁSICA</h3>
+                    <img class="image" src="../img/HamburguesasBuenas/Clásica.jpg" alt="Pizza Peperoni">
+                    <div class="boton">
+                        <a href=""> Detalles </a>
+                        <a class="bv" href="pedidoH.html"> Ordena aquí </a> 
+                    </div>
+                </div>
+
+                <div class="p1">
+                    <h3>BÚFALO</h3>
+                    <img class="image" src="../img/HamburguesasBuenas/Bufalo.jpg" alt="Pizza carnes frías">
+                    <div class="boton">
+                        <a href=""> Detalles </a>
+                        <a class="bv" href="pedidoH.html"> Ordena aquí </a> 
+                    </div>
+                </div>
+
+                <div class="p1">
+                    <h3>VEGETARIANA</h3>
+                    <img class="image" src="../img/HamburguesasBuenas/Vegetariana.jpg" alt="Pizza Mexicana">
+                    <div class="boton">
+                        <a href=""> Detalles </a>
+                        <a class="bv" href="pedidoH.html"> Ordena aquí </a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <form action="">
+                    <fieldset>
+                        <legend>Detalles del Pedido</legend>
+                        <div>
+                            <img class="image" src="../img/HamburguesasBuenas/Vacuno.jpg" alt="Pizza hawaiana">
+                        </div>
+                        
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre" class="centrar-type">
+
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" placeholder="Tu teléfono" class="centrar-type">
+
+                        <label for="opciones">Cantidad de Hamburguesas</label>
+                        <select id="opciones" class="centrar-type">
+                            <option value="" disabled selected>-- Selecciona cantidad de Hamburguesas --</option>
+                            <option value="Compra">1 Hamburguesa $60</option>
+                            <option value="Vende">2 Hamburguesas $110</option>
+                            <option value="Vende">3 Hamburguesas $150</option>
+                            <option value="Vende">4 Hamburguesas $190</option>
+                            <option value="Compra">5 Hamburguesas $240</option>
+                            <option value="Vende">6 Hamburguesas $280</option>
+                            <option value="Vende">7 Hamburguesas $310</option>
+                            <option value="Vende">8 Hamburguesas $320</option>
+                        </select>
+                        
+                        <label for="mensaje">Detalles del domicilio</label>
+                        <textarea id="detalles del domicilio" cols="10" rows="2" placeholder="Aquí escribe tu domicilio y algunas referencias" class="centrar-type"></textarea>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+
+        <footer class="seccion-footer">
+           <div class="contenedor-footer">
+           <div class="footerc">
+			<h2 class="logotipo"><a href="#"><img src="../img/logo.svg" alt="logo_bacinaro"></a></h2>
+			<nav>
+				<a href="#">Inicio</a>
+				<a href="#">Hamburguesas</a>
+				<a href="Contacto.html">Contacto</a>
+				<a href="inicio_sesion.html">Iniciar Sesión</a>
+			</nav>
+            </div>
+			
+            <nav class="navegacion">
+                <a href="https://www.facebook.com/"><img src="../img/fb.png" alt="face"></a>
+                <a href="https://www.google.com/gmail/"><img src="../img/mail.png" alt="Gmail"></a>
+                <a href="https://twitter.com/?lang=es"><img src="../img/twitter.png" alt="Twitter"></a>
+                <a href="https://www.whatsapp.com/?lang=es"><img src="../img/whasap.png" alt="WhatsApp"></a>
+            </nav>
+            </div>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,77 @@
+@media(max-width: 767px)
+{
+    header .logotipo
+    {
+		margin-bottom: 1rem;
+	}
+
+	header .contenedor-header
+    {
+		flex-direction: column;
+		text-align: center;
+	}
+    .login-container
+    {
+        margin: auto;
+        height: 37rem;
+    }
+    
+    .login-form-1
+    {
+        width: 100%;
+        height: 37rem;
+        padding: 9%;
+        background:#fff;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5rem;
+    }
+    
+    .btnSubmit
+    {
+        font-weight: 600;
+        width: 80%;
+        font-size: 1.35rem;
+        color: #FFF;
+        background: linear-gradient(to right, rgba(235,82,11,1) 0%, rgba(243,164,34,1) 90%);
+        border: none;
+        border-radius: 0.8rem;
+        padding:2%;
+}
+    
+    .centrar-abajo
+    {
+        display: flex;
+        justify-content: center;
+        top: 6%
+    }
+    
+    .btnReg
+    {
+        color:#33AEE8;
+        font-weight: bold;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .lbl
+    {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .btnForgetPwd:hover
+    {
+        text-decoration: none;
+    }
+    
+    footer .logotipo
+    {
+		margin-bottom: 1rem;
+	}
+
+	footer .footerc
+    {
+		flex-direction: column;
+		text-align: center;
+	}
+}

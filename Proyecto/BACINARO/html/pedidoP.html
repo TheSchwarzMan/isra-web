@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/estilospedidoPH.css">
+        <link rel="stylesheet" href="../css/estilos-footer-header.css">
+        <link rel="stylesheet" href="../css/EstilosIN.css">
+        <title>BACINARO EATS</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="contenedor-header">
+                <h2 class="logotipo"><a href="pedidoP.html"><img src="../img/logo.svg" alt="logo_bacinaro"></a></h2>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Hamburguesas</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="inicio_sesion.html">Iniciar Sesión</a>
+                </nav>
+            </div>
+        </header>
+
+        <main> 
+            <h2>PIZZAS</h2>
+            <div class="contenedorP-flex">
+                <div class="p1">
+                    <h3>PEPERONI</h3>
+                    <img class="image" src="../img/Pizzasbuenas/Peperoni.jpg" alt="Pizza Peperoni">
+                    <div class="boton">
+                        <a href=""> Detalles </a>
+                        <a class="bv" href="pedidoP.html"> Ordena aquí </a> 
+                    </div>
+                </div>
+
+                <div class="p1">
+                    <h3>CARNES FRíAS</h3>
+                    <img class="image" src="../img/Pizzasbuenas/carnesFrias.jpg" alt="Pizza carnes frías">
+                    <div class="boton">
+                        <a href=""> Detalles </a>
+                        <a class="bv" href="pedidoP.html"> Ordena aquí </a> 
+                    </div>
+                </div>
+
+                <div class="p1">
+                    <h3>CHICKEN</h3>
+                    <img class="image" src="../img/Pizzasbuenas/chicken.jpg" alt="Pizza chicken">
+                    <div class="boton">
+                        <a href=""> Detalles </a>
+                        <a class="bv" href="pedidoP.html"> Ordena aquí </a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <form action="">
+                    <fieldset>
+                        <legend>Detalles del Pedido</legend>
+                        <div>
+                            <img class="image" src="../img/Pizzasbuenas/hawaiana.jpg" alt="Pizza hawaiana">
+                        </div>
+                        
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre" class="centrar-type">
+
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" placeholder="Tu teléfono" class="centrar-type">
+
+                        <label for="opciones">Tamaño</label>
+                        <select id="opciones" class="centrar-type">
+                            <option value="" disabled selected>-- Seleccione tamaño, el precio por defecto es de la mediana --</option>
+                            <option value="Compra">Mini $60</option>
+                            <option value="Vende">Chica $90</option>
+                            <option value="Vende">Mediana $130</option>
+                            <option value="Vende">Grande $180</option>
+                        </select>
+                        
+                        <label for="mensaje">Detalles del domicilio</label>
+                        <textarea id="detalles del domicilio" cols="10" rows="2" placeholder="Aquí escribe tu domicilio y algunas referencias" class="centrar-type"></textarea>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+
+        <footer class="pie-pagia seccion-footer">
+            <nav class="navegacion">
+                <a href="facebook.com"><img class="icon" src="../img/fb.png" alt="Facebook.com"></a>
+                <a href="gmail.com"><img class="icon" src="../img/mail.png" alt="Gmail.com"></a>
+                <a href="twitter.com"><img class="icon" src="../img/twitter.png" alt="Twitter.com"></a>
+                <a href="#"><img class="icon" src="../img/whasap.png" alt="Whats App.com"></a>
+            </nav>
+        </footer>
+
+    </body>
+</html>
