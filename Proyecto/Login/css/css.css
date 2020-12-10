@@ -89,7 +89,7 @@ label
     border-bottom-right-radius: 5rem;
 }
 
-input[type="password"], input[type="email"]
+input[type="password"], input[type="email"], input[type="text"]
 {
     border: 0;
     border-bottom: solid 1px;
@@ -99,6 +99,7 @@ input[type="password"], input[type="email"]
 }
 
 input[type="email"]::placeholder,
+input[type="text"]::placeholder,
 input[type="password"]::placeholder
 {
     color: #E48E00;
