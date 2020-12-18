@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
 }
 
 *,
@@ -13,6 +12,7 @@ html {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 img
